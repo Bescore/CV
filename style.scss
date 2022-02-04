@@ -94,14 +94,12 @@ line-height: 52px;
 }
 .h2-infos{
     font-size:23px;
+    color:$text-infos-color;
 }
 .logo-container{
     display: flex;
     flex-wrap: wrap;
     max-width:390px;
-}
-.text-info{
-    color:$text-infos-color;
 }
 .logos{
     width:110px;
@@ -129,4 +127,21 @@ right:77px;
     position: relative;
     top:20px;
     right:30px;
+}
+
+//section cont//
+.section-container{
+    display: flex;
+    position:relative;
+    max-width: 800px;
+    bottom:1240px;
+    left:500px;
+}
+
+//inside section cont//
+.text-bloc{
+    margin: 0 50px;
+    padding:23px;
+    background-color: white;
+    border-radius:25px;
 }

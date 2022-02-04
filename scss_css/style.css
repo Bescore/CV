@@ -83,16 +83,13 @@ header {
 
 .h2-infos {
   font-size: 23px;
+  color: #5b5e66;
 }
 
 .logo-container {
   display: flex;
   flex-wrap: wrap;
   max-width: 390px;
-}
-
-.text-info {
-  color: #5b5e66;
 }
 
 .logos {
@@ -125,5 +122,20 @@ header {
   position: relative;
   top: 20px;
   right: 30px;
+}
+
+.section-container {
+  display: flex;
+  position: relative;
+  max-width: 800px;
+  bottom: 1240px;
+  left: 500px;
+}
+
+.text-bloc {
+  margin: 0 50px;
+  padding: 23px;
+  background-color: white;
+  border-radius: 25px;
 }
 /*# sourceMappingURL=style.css.map */
