@@ -91,6 +91,10 @@ header {
   max-width: 390px;
 }
 
+.text-info {
+  color: #5b5e66;
+}
+
 .logos {
   width: 110px;
   height: 110px;

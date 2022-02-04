@@ -3,6 +3,7 @@
 }
 //variable polices//
 $h3color:#ff7948;
+$text-infos-color:#5b5e66;
 ////////////////////
 @mixin heebo{
     font-family: 'Heebo', sans-serif;
@@ -98,6 +99,9 @@ line-height: 52px;
     display: flex;
     flex-wrap: wrap;
     max-width:390px;
+}
+.text-info{
+    color:$text-infos-color;
 }
 .logos{
     width:110px;
