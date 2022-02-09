@@ -86,6 +86,7 @@ background-color: #efefef;
 color: $h3color;
 font-size: 24px;
 @include heebo;
+white-space: nowrap;
 }
 .h2-title-colors{
 font-weight: bold;
@@ -133,15 +134,32 @@ right:77px;
 .section-container{
     display: flex;
     position:relative;
-    max-width: 800px;
+    max-width: 1100px;
     bottom:1240px;
-    left:500px;
+    left:497px;
 }
 
 //inside section cont//
 .text-bloc{
-    margin: 0 50px;
-    padding:23px;
+    margin: 0 20px 35px;
+    padding:0 24px 0 24px;
     background-color: white;
     border-radius:25px;
+    width:380px;
+}
+
+// left-top text-bloc height id//
+#bloc{
+    height:440px;
+}
+
+// middle left text-bloc height id//
+#bloc-2{
+    height:620px;
+    position:relative;
+    bottom:130px;
+}
+// middle right text-bloc height id//
+#bloc-3{
+    height: 830px;
 }

@@ -73,6 +73,7 @@ header {
   color: #ff7948;
   font-size: 24px;
   font-family: 'Heebo', sans-serif;
+  white-space: nowrap;
 }
 
 .h2-title-colors {
@@ -127,15 +128,30 @@ header {
 .section-container {
   display: flex;
   position: relative;
-  max-width: 800px;
+  max-width: 1100px;
   bottom: 1240px;
-  left: 500px;
+  left: 497px;
 }
 
 .text-bloc {
-  margin: 0 50px;
-  padding: 23px;
+  margin: 0 20px 35px;
+  padding: 0 24px 0 24px;
   background-color: white;
   border-radius: 25px;
+  width: 380px;
+}
+
+#bloc {
+  height: 440px;
+}
+
+#bloc-2 {
+  height: 620px;
+  position: relative;
+  bottom: 130px;
+}
+
+#bloc-3 {
+  height: 830px;
 }
 /*# sourceMappingURL=style.css.map */
