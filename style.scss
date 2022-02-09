@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
 }
+
 //variable polices//
 $h3color:#ff7948;
 $text-infos-color:#5b5e66;
@@ -162,4 +163,35 @@ right:77px;
 // middle right text-bloc height id//
 #bloc-3{
     height: 830px;
+}
+#bloc-4{
+    height:282px;
+    position: relative;
+    bottom: 320px;
+}
+.bloc-line-height-supp{
+    margin:0;
+}
+
+//titre rncp line height//
+#bloc-2-left-line{
+font-weight: bold;
+font-size:23px;
+}
+//openclass//
+.Openclass{
+    font-size: 24px;
+}
+//section container qui depasse//
+#sec-cont{
+    height: 0;
+}
+
+//ligne du bas version desktop//
+.line-down{
+    border-top: #808288 solid;
+    width: 1220px;
+    position: relative;
+    bottom: 1255px;
+    left:92px;
 }

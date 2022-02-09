@@ -154,4 +154,35 @@ header {
 #bloc-3 {
   height: 830px;
 }
+
+#bloc-4 {
+  height: 282px;
+  position: relative;
+  bottom: 320px;
+}
+
+.bloc-line-height-supp {
+  margin: 0;
+}
+
+#bloc-2-left-line {
+  font-weight: bold;
+  font-size: 23px;
+}
+
+.Openclass {
+  font-size: 24px;
+}
+
+#sec-cont {
+  height: 0;
+}
+
+.line-down {
+  border-top: #808288 solid;
+  width: 1220px;
+  position: relative;
+  bottom: 1255px;
+  left: 92px;
+}
 /*# sourceMappingURL=style.css.map */
