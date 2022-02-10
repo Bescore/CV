@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #7F96FF;
+}
+
 main {
   overflow-y: hidden;
 }
@@ -10,6 +14,39 @@ header {
   background-color: #efefef;
   max-width: 1410px;
   margin: 0 auto;
+}
+
+.navig {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 10000;
+  background-color: #57A773;
+}
+
+.ul-nav {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+}
+
+.ul-nav-child {
+  border: 1px white solid;
+  border-radius: 5px;
+  width: 8rem;
+  height: 2rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+.btn-menu {
+  margin: 5px;
 }
 
 .sheet {
@@ -31,6 +68,7 @@ header {
   top: 120px;
   left: 190px;
   z-index: 10;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 .title-container {
@@ -58,6 +96,7 @@ header {
   width: 180px;
   font-size: 32px;
   color: white;
+  font-family: 'Roboto', sans-serif;
 }
 
 .how-to-join {
@@ -80,11 +119,13 @@ header {
   font-weight: bold;
   font-size: 23px;
   line-height: 52px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .h2-infos {
-  font-size: 23px;
+  font-size: 22px;
   color: #5b5e66;
+  font-family: 'Roboto', sans-serif;
 }
 
 .logo-container {
@@ -168,10 +209,12 @@ header {
 #bloc-2-left-line {
   font-weight: bold;
   font-size: 23px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .Openclass {
   font-size: 24px;
+  font-family: 'Roboto', sans-serif;
 }
 
 #sec-cont {

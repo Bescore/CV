@@ -1,14 +1,31 @@
+//variable polices//
+$h3color:#ff7948;
+$nav-color:#57A773;
+$background-color:#7F96FF;
+$text-infos-color:#5b5e66;
+
 *{
     box-sizing: border-box;
 }
+body{
+    background-color: $background-color;
+    
+}
 main{
-    overflow-y:hidden
+    overflow-y:hidden;
+    
 }
 
-//variable polices//
-$h3color:#ff7948;
-$text-infos-color:#5b5e66;
-////////////////////
+///////////mixin////////////////////
+@mixin nav-color{
+    background-color: #57A773;
+}
+@mixin background-color{
+    background-color:#7F96FF;
+}
+@mixin roboto{
+    font-family: 'Roboto', sans-serif;
+}
 @mixin heebo{
     font-family: 'Heebo', sans-serif;
 }
@@ -22,6 +39,33 @@ header{
     background-color: #efefef;
     max-width:1410px;
     margin: 0 auto;
+}
+.navig{
+    position: fixed;
+    left:0;
+    right:0;
+    top: 0;
+    z-index:10000;
+    background-color: $nav-color;
+}
+.ul-nav{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+.ul-nav-child{
+    border:  1px white solid;
+    border-radius:5px;
+    width:8rem;
+    height: 2rem;
+    text-align: center;
+    @include center;
+    @include roboto;
+    font-weight: bold;
+    color: white;
+}
+.btn-menu{
+    margin:5px;
 }
 .sheet{
     max-width:1410px;
@@ -42,6 +86,7 @@ background-color: #efefef;
     top:120px;
     left:190px;
     z-index: 10;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
     
 }
 
@@ -69,6 +114,7 @@ background-color: #efefef;
     width:180px;
     font-size:32px;
     color: white;
+    @include roboto;
 }
 
 //comment me joindre desktop//
@@ -92,10 +138,12 @@ white-space: nowrap;
 font-weight: bold;
 font-size:23px;
 line-height: 52px;
+@include roboto;
 }
 .h2-infos{
-    font-size:23px;
+    font-size:22px;
     color:$text-infos-color;
+    @include roboto;
 }
 .logo-container{
     display: flex;
@@ -176,10 +224,12 @@ right:77px;
 #bloc-2-left-line{
 font-weight: bold;
 font-size:23px;
+@include roboto;
 }
 //openclass//
 .Openclass{
     font-size: 24px;
+    @include roboto
 }
 //section container qui depasse//
 #sec-cont{
