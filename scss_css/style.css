@@ -4,6 +4,8 @@
 
 body {
   background-color: #7F96FF;
+  margin: 0;
+  padding: 0;
 }
 
 main {
@@ -240,8 +242,8 @@ header {
 
 .hobbies-icons {
   position: relative;
-  bottom: 1250px;
-  left: 45px;
+  bottom: 1260px;
+  left: 80px;
   width: 350px;
   display: flex;
   align-items: center;
@@ -250,5 +252,52 @@ header {
 
 .fa-person-running {
   margin-right: 3px;
+}
+
+.fa-3x {
+  color: #57A773;
+}
+
+.icon-circles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px #57A773 solid;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+}
+
+.learning {
+  position: relative;
+  bottom: 1370px;
+  left: 700px;
+  width: 280px;
+}
+
+.arrow {
+  position: fixed;
+  bottom: 5vh;
+  right: 5vh;
+  border-radius: 10px;
+  padding: 5px;
+  border: 1px #35495e solid;
+}
+
+.follow {
+  background-color: #35495e;
+  height: 150px;
+  width: 1412px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+
+.footer-list {
+  margin: 20px;
+  list-style: none;
 }
 /*# sourceMappingURL=style.css.map */

@@ -3,12 +3,15 @@ $h3color:#ff7948;
 $nav-color:#57A773;
 $background-color:#7F96FF;
 $text-infos-color:#5b5e66;
+$footer:#35495e;
 
 *{
     box-sizing: border-box;
 }
 body{
     background-color: $background-color;
+    margin: 0;
+    padding: 0;
     
 }
 main{
@@ -47,6 +50,7 @@ header{
     top: 0;
     z-index:10000;
     background-color: $nav-color;
+    
 }
 .ul-nav{
     display: flex;
@@ -256,14 +260,62 @@ font-size:23px;
 
 .hobbies-icons{
     position:relative;
-    bottom:1250px;
-    left:45px;
+    bottom:1260px;
+    left:80px;
     width: 350px;
+
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    
 }
 
 .fa-person-running{
     margin-right:3px;
+}
+.fa-3x{
+    color: $nav-color
+}
+.icon-circles{
+    @include center;
+    border: 1px $nav-color solid;
+    border-radius:50%;
+    width:70px;
+    height:70px;
+}
+.learning{
+    position:relative;
+    bottom:1370px;
+    left:700px;
+    width:280px;
+}
+
+//flèche qui remonte la page//
+.arrow{
+    position: fixed;
+    bottom:5vh;
+   right: 5vh;
+   border-radius: 10px;
+   padding:5px;
+   border: 1px $footer solid
+
+}
+
+//footer//
+.follow{
+    background-color: $footer;
+    height:150px;
+    width:1412px;
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+    color:white;
+    font-weight: bold;
+    @include roboto;
+    
+}
+
+.footer-list{
+    margin:20px;
+    list-style: none;
 }
