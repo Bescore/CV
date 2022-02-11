@@ -237,4 +237,18 @@ header {
   display: flex;
   justify-content: space-between;
 }
+
+.hobbies-icons {
+  position: relative;
+  bottom: 1250px;
+  left: 45px;
+  width: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.fa-person-running {
+  margin-right: 3px;
+}
 /*# sourceMappingURL=style.css.map */
