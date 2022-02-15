@@ -25,6 +25,24 @@ header {
   top: 0;
   z-index: 10000;
   background-color: #57A773;
+  transition: 500ms;
+  transform: translateY(-52px);
+}
+
+.navig:hover {
+  transform: translateY(0px);
+}
+
+.clip {
+  margin: 0 auto;
+  text-align: center;
+  width: 40px;
+  color: white;
+}
+
+.clip:hover {
+  background-color: black;
+  border-radius: 50%;
 }
 
 .ul-nav {
