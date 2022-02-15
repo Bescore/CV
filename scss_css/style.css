@@ -286,7 +286,7 @@ header {
 
 .follow {
   background-color: #35495e;
-  height: 150px;
+  height: 70px;
   width: 1412px;
   margin: 0 auto;
   display: flex;
@@ -299,5 +299,161 @@ header {
 .footer-list {
   margin: 20px;
   list-style: none;
+}
+
+@media screen and (max-width: 1396px) {
+  body {
+    margin: 0 20px;
+  }
+  .sheet {
+    width: auto;
+    max-width: auto;
+  }
+  .follow {
+    width: auto;
+  }
+  .section-container {
+    display: flex;
+    position: relative;
+    max-width: auto;
+    width: 800px;
+  }
+  .text-bloc {
+    margin: 0 20px 35px;
+    padding: 0 24px 0 24px;
+    background-color: white;
+    border-radius: 25px;
+    width: 370px;
+  }
+  #bloc-2 {
+    height: auto;
+    position: relative;
+    bottom: 130px;
+  }
+  #bloc-3 {
+    height: 850px;
+  }
+  #bloc-4 {
+    height: 190px;
+    position: relative;
+    bottom: 20px;
+    left: 370px;
+    background-color: initial;
+  }
+  .line-down {
+    border-top: #808288 solid;
+    width: 1220px;
+    position: relative;
+    bottom: 1255px;
+    left: 72px;
+  }
+  .down-part {
+    position: relative;
+    bottom: 1270px;
+    left: 95px;
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .bloc-line-height-supp {
+    margin: 0;
+  }
+  .learning {
+    position: relative;
+    bottom: 1370px;
+    left: 520px;
+    width: 280px;
+  }
+}
+
+@media screen and (max-width: 1340px) {
+  .sheet {
+    max-width: 1410px;
+    height: auto;
+    margin: 0 auto;
+    background-color: #efefef;
+  }
+  .profilepic-container {
+    margin: 0 auto;
+    left: initial;
+    top: 70px;
+  }
+  .title-container {
+    left: initial;
+    top: initial;
+    margin: 0 auto;
+  }
+  .how-to-join {
+    max-width: 420px;
+    width: 100%;
+    position: relative;
+    top: initial;
+    left: 30px;
+    margin: 0 auto;
+  }
+  .logo-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 390px;
+    display: none;
+  }
+  .section-container {
+    display: initial;
+    position: initial;
+    max-width: auto;
+    width: 800px;
+  }
+  .text-bloc {
+    margin: 0 auto;
+    padding: 0 24px 0 24px;
+    background-color: white;
+    border-radius: 25px;
+    width: 370px;
+  }
+  #bloc-2 {
+    height: auto;
+    position: initial;
+  }
+  #bloc-3 {
+    height: 850px;
+  }
+  #bloc-4 {
+    height: 190px;
+    position: initial;
+    background-color: white;
+  }
+  .line-down {
+    border-top: #808288 solid;
+    position: initial;
+    display: none;
+  }
+  .down-part {
+    position: initial;
+    bottom: 1270px;
+    width: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+  }
+  .bloc-line-height-supp {
+    margin: 0;
+  }
+  .hobbies-icons {
+    position: initial;
+    bottom: 1260px;
+    left: initial;
+    width: auto;
+    margin: 0 auto 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .learning {
+    position: initial;
+    bottom: 1370px;
+    left: 520px;
+    width: 280px;
+    margin: 0 auto 20px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
