@@ -565,8 +565,8 @@ header {
     display: initial;
     color: #ff7948;
     position: absolute;
-    top: 5vh;
-    left: 25vw;
+    top: 2vh;
+    left: 30vw;
     z-index: 10;
   }
   .burger_square {
