@@ -26,6 +26,6 @@ function Imhere () {
     function Imnothere () {
         goUp.style.display = "none"; 
     }
-    setTimeout(Imnothere,4000)
+    setTimeout(Imnothere,7000)
 }
 window.addEventListener("scroll",Imhere)
