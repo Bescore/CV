@@ -299,7 +299,8 @@ header {
   right: 5vh;
   border-radius: 10px;
   padding: 5px;
-  border: 1px #35495e solid;
+  background-color: #ff7948;
+  color: #f3f3f3;
 }
 
 .follow {
@@ -560,10 +561,12 @@ header {
     position: fixed;
     top: 20px;
     left: 20px;
-    border: #f3f3f3 2px solid;
     background-color: #ff7948;
     border-radius: 7px;
     z-index: 200;
+  }
+  .hr {
+    border-color: #F3F3F3;
   }
   .h3-title-colors {
     color: #ff7948;
