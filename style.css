@@ -496,7 +496,7 @@ header {
     align-items: center;
     z-index: 100;
     background-color: #57A773;
-    transition: 500ms;
+    transition: 300ms;
     transform: translateY(0px);
     transform: translateX(-200px);
   }
