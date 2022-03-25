@@ -505,8 +505,12 @@ background-color: #efefef;
     margin: 0 auto 20px;
 }
 }
-//QUERIES 3(version 585px)//
+//QUERIES 3(version 583px)//
 @media screen and (max-width:583px) {
+    body{
+        margin: 0 0;
+        padding: 0 0;
+    }
     .navig{
     position: fixed;
     width: 180px;
@@ -534,10 +538,6 @@ background-color: #efefef;
 }
 .clip{
     display: none;
-}
-body{
-        margin-left:0;
-        margin-right: 0;
 }
 .title-container{
     left:initial;

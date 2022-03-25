@@ -476,6 +476,10 @@ header {
 }
 
 @media screen and (max-width: 583px) {
+  body {
+    margin: 0 0;
+    padding: 0 0;
+  }
   .navig {
     position: fixed;
     width: 180px;
@@ -501,10 +505,6 @@ header {
   }
   .clip {
     display: none;
-  }
-  body {
-    margin-left: 0;
-    margin-right: 0;
   }
   .title-container {
     left: initial;
