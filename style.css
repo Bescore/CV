@@ -474,6 +474,9 @@ header {
     width: 280px;
     margin: 0 auto 20px;
   }
+  .burger_square {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 583px) {
@@ -555,6 +558,7 @@ header {
     font-family: 'Roboto', sans-serif;
   }
   .burger_square {
+    display: initial;
     padding: 4px;
     height: 50px;
     width: 50px;
