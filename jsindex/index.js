@@ -8,7 +8,6 @@ function uNmenu () {
 }
 function menu () {
     nav.style.transform = "translateX( 0px )";
-   setTimeout(uNmenu,4000)
 }
 
 // remonter en haut de la page
@@ -20,4 +19,13 @@ function scroltop () {
         behavior: 'smooth'
     } );
 }
-    
+// faire apparaître la flèche haut de page au scroll pendant 4 secondes puis disparaît
+
+function Imhere () {
+    goUp.style.display = "initial";
+    function Imnothere () {
+        goUp.style.display = "none"; 
+    }
+    setTimeout(Imnothere,4000)
+}
+window.addEventListener("scroll",Imhere)

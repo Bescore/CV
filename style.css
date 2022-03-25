@@ -49,6 +49,7 @@ header {
   display: flex;
   list-style: none;
   justify-content: space-evenly;
+  width: 700px;
 }
 
 .ul-nav-child {
@@ -301,6 +302,7 @@ header {
   padding: 5px;
   background-color: #ff7948;
   color: #f3f3f3;
+  display: none;
 }
 
 .follow {
@@ -499,6 +501,11 @@ header {
     transform: translateY(0px);
     transform: translateX(-200px);
   }
+  .fa-xmark {
+    position: relative;
+    bottom: 210px;
+    left: 100px;
+  }
   .ul-nav {
     height: 500px;
     display: flex;
@@ -564,12 +571,10 @@ header {
     position: fixed;
     top: 20px;
     left: 20px;
-    background-color: #ff7948;
     border-radius: 7px;
-    z-index: 200;
   }
   .hr {
-    border-color: #F3F3F3;
+    border: #ff7948 solid 2px;
   }
   .h3-title-colors {
     color: #ff7948;

@@ -74,6 +74,7 @@ header{
     display: flex;
     list-style: none;
     justify-content: space-evenly;
+    width: 700px;
 }
 .ul-nav-child{
     border:  1px white solid;
@@ -317,6 +318,7 @@ font-size:23px;
    padding:5px;
    background-color: $h3color;
    color: #f3f3f3 ;
+   display: none;
 
 }
 
@@ -532,6 +534,11 @@ background-color: #efefef;
    ;
     
 }
+.fa-xmark{
+    position: relative;
+    bottom: 210px;
+    left: 100px;
+}
 .ul-nav{
     height: 500px;
     display: flex;
@@ -598,14 +605,12 @@ header{
     position: fixed;
     top: 20px;
     left:20px;
-    background-color: $h3color;
     border-radius: 7px;
-    z-index: 200;
 
     
 }
 .hr{
-    border-color: #F3F3F3;
+    border:$h3color solid 2px;
 }
 .h3-title-colors{
 color: $h3color;
