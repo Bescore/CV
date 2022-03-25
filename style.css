@@ -565,7 +565,7 @@ header {
     display: initial;
     color: #ff7948;
     position: absolute;
-    top: 15vh;
+    top: 5vh;
     left: 25vw;
     z-index: 10;
   }
