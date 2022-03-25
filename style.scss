@@ -514,15 +514,19 @@ background-color: #efefef;
     left:0;
     right:0;
     top: 0;
+    display: flex;
+    justify-content: left;
+    align-items: center;
     z-index:100;
     background-color: $nav-color;
     transition: 500ms;
     transform: translateY(0px);
-   transform: translateX(-200px);
+    transform : translateX( -200px );
+   ;
     
 }
 .ul-nav{
-    height: 400px;
+    height: 500px;
     display: flex;
     list-style: none;
     flex-direction: column;
@@ -531,15 +535,32 @@ background-color: #efefef;
 .clip{
     display: none;
 }
-    body{
+body{
         margin-left:0;
         margin-right: 0;
-    }
+}
+.title-container{
+    left:initial;
+    top:initial;
+    margin: 0 auto;
+    width: 360px;
+}
+.how-to-join{
+    max-width:320px;
+    width:100%;
+    position:relative;
+    top:initial;
+    left:5px;
+    margin:0 auto; 
+}
 .sheet{
-    max-width:375px;
+    max-width:365px;
     height:auto;
     margin: 0 auto;
 background-color: #efefef;
+}
+.text-bloc{
+    width: 357px;
 }
  .profilepic-container{
         margin: 0 auto;
@@ -556,7 +577,7 @@ header{
 .follow{
     background-color: $footer;
     height:300px;
-    width:375px;
+    width:365px;
     margin:0 auto ;
     padding: 0 0 ;
     display: flex;
@@ -576,7 +597,16 @@ header{
     top: 20px;
     left:20px;
     border:#f3f3f3 2px solid;
+    background-color: $h3color;
+    border-radius: 7px;
+    z-index: 200;
 
     
+}
+.h3-title-colors{
+color: $h3color;
+font-size: 23px;
+@include heebo;
+white-space: nowrap;
 }
 }
