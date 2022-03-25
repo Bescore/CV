@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: #7F96FF;
+  background-color: #7f96ff;
   margin: 0;
   padding: 0;
 }
@@ -24,7 +24,7 @@ header {
   right: 0;
   top: 0;
   z-index: 10000;
-  background-color: #57A773;
+  background-color: #57a773;
   transition: 500ms;
   transform: translateY(-52px);
 }
@@ -64,7 +64,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: bold;
   color: white;
 }
@@ -110,7 +110,7 @@ header {
 }
 
 .myname {
-  font-family: 'Heebo', sans-serif;
+  font-family: "Heebo", sans-serif;
   font-size: 36px;
   position: relative;
   top: 42px;
@@ -120,7 +120,7 @@ header {
   width: 180px;
   font-size: 32px;
   color: white;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .how-to-join {
@@ -135,7 +135,7 @@ header {
 .h3-title-colors {
   color: #ff7948;
   font-size: 24px;
-  font-family: 'Heebo', sans-serif;
+  font-family: "Heebo", sans-serif;
   white-space: nowrap;
 }
 
@@ -143,13 +143,13 @@ header {
   font-weight: bold;
   font-size: 23px;
   line-height: 52px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .h2-infos {
   font-size: 22px;
   color: #5b5e66;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .logo-container {
@@ -233,12 +233,12 @@ header {
 #bloc-2-left-line {
   font-weight: bold;
   font-size: 23px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .Openclass {
   font-size: 24px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 #sec-cont {
@@ -277,14 +277,14 @@ header {
 }
 
 .fa-3x {
-  color: #57A773;
+  color: #57a773;
 }
 
 .icon-circles {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px #57A773 solid;
+  border: 1px #57a773 solid;
   border-radius: 50%;
   width: 70px;
   height: 70px;
@@ -317,7 +317,7 @@ header {
   align-items: center;
   color: white;
   font-weight: bold;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .footer-list {
@@ -499,7 +499,7 @@ header {
     justify-content: left;
     align-items: center;
     z-index: 100;
-    background-color: #57A773;
+    background-color: #57a773;
     transition: 300ms;
     transform: translateY(0px);
     transform: translateX(-200px);
@@ -559,14 +559,15 @@ header {
     align-items: center;
     color: white;
     font-weight: bold;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
   }
   .cancel {
     display: initial;
     color: #ff7948;
     position: absolute;
-    top: 10vh;
+    top: 15vh;
     left: 25vw;
+    z-index: 10;
   }
   .burger_square {
     display: initial;
@@ -584,7 +585,7 @@ header {
   .h3-title-colors {
     color: #ff7948;
     font-size: 23px;
-    font-family: 'Heebo', sans-serif;
+    font-family: "Heebo", sans-serif;
     white-space: nowrap;
   }
 }
