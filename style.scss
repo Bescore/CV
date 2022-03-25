@@ -535,11 +535,7 @@ background-color: #efefef;
    ;
     
 }
-.fa-xmark{
-    position: relative;
-    bottom: 160px;
-    left: 100px;
-}
+
 .ul-nav{
     height: 500px;
     display: flex;
@@ -601,6 +597,9 @@ header{
 .cancel{
     display: initial;
     color: $h3color;
+    position: absolute;
+    top: 2vh;
+    left: 25vw;
 }
 .burger_square{
     display: initial;

@@ -504,11 +504,6 @@ header {
     transform: translateY(0px);
     transform: translateX(-200px);
   }
-  .fa-xmark {
-    position: relative;
-    bottom: 160px;
-    left: 100px;
-  }
   .ul-nav {
     height: 500px;
     display: flex;
@@ -569,6 +564,9 @@ header {
   .cancel {
     display: initial;
     color: #ff7948;
+    position: absolute;
+    top: 2vh;
+    left: 25vw;
   }
   .burger_square {
     display: initial;
