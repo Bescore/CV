@@ -520,7 +520,7 @@ header {
     margin: 0 auto;
   }
   .sheet {
-    max-width: 365px;
+    max-width: 360px;
     height: auto;
     margin: 0 auto;
     background-color: #efefef;
@@ -537,13 +537,13 @@ header {
   }
   header {
     background-color: #efefef;
-    max-width: 365px;
+    max-width: 360px;
     margin: 0 auto;
   }
   .follow {
     background-color: #35495e;
     height: 300px;
-    width: 365px;
+    width: 360px;
     margin: 0 auto;
     padding: 0 0;
     display: flex;
