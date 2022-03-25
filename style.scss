@@ -54,7 +54,9 @@ header{
     transform: translateY(-52px);
     
 }
-
+.cancel{
+    display:none;
+}
 
 .navig:hover{
     transform: translateY(0px);
@@ -74,7 +76,6 @@ header{
     display: flex;
     list-style: none;
     justify-content: space-evenly;
-    width: 700px;
 }
 .ul-nav-child{
     border:  1px white solid;
@@ -596,6 +597,9 @@ header{
     font-weight: bold;
     @include roboto;
     
+}
+.cancel{
+    display: initial;
 }
 .burger_square{
     display: initial;

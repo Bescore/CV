@@ -29,6 +29,10 @@ header {
   transform: translateY(-52px);
 }
 
+.cancel {
+  display: none;
+}
+
 .navig:hover {
   transform: translateY(0px);
 }
@@ -49,7 +53,6 @@ header {
   display: flex;
   list-style: none;
   justify-content: space-evenly;
-  width: 700px;
 }
 
 .ul-nav-child {
@@ -562,6 +565,9 @@ header {
     color: white;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
+  }
+  .cancel {
+    display: initial;
   }
   .burger_square {
     display: initial;
