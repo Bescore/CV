@@ -506,7 +506,7 @@ header {
   }
   .fa-xmark {
     position: relative;
-    bottom: 210px;
+    bottom: 160px;
     left: 100px;
   }
   .ul-nav {
@@ -568,6 +568,7 @@ header {
   }
   .cancel {
     display: initial;
+    color: #ff7948;
   }
   .burger_square {
     display: initial;
