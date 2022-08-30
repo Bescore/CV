@@ -1,1 +1,1 @@
-Petit projet d'intégration en vue du porte folio et du site personnel
+Petit projet d'intégration , reproduire un cv que j'ai créé
